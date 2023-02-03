@@ -6,7 +6,7 @@ import HeroContent from "./HeroContent"
 const HeroPage = () => {
   return (
     <div className='overflow-x-hidden h-100vh w-[100%]'>
-        <div className=' absolute top-0 left-0 overflow-x-hidden'>
+        <div className=' absolute top-0 left-0 w-[100%]'>
             <img src={background_image} alt='hero-bg' className='overflow-x-hidden w-[150%]'/>
         </div>
        <div className='absolute w-[100%] top-0 left-0 overflow-x-hidden'>
